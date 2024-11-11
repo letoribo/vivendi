@@ -4,7 +4,13 @@
     "default": {
       "type": "graphql",
       "path": "/graphql",
-      "auth": "bearer-token"
+      "auth": "none"
+    }
+  },
+  "connections": {
+    "zenquotes": {
+      "type": "http",
+      "baseUrl": "https://zenquotes.io/"
     }
   }
 }

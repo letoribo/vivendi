@@ -1,0 +1,2 @@
+curl --request POST   --header 'content-type: application/json'   --url 'http://localhost:8686/graphql'   --data '{"query":"{ sayHello }"}'
+curl --request POST   --header 'content-type: application/json'   --url 'http://localhost:8686/graphql'   --data '{"query":"{ randomQuote { quote author } }"}'
